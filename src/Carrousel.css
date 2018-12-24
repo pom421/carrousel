@@ -1,0 +1,40 @@
+.dot {
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
+  height: 15px;
+  margin-right: 5px;
+  width: 15px;
+}
+
+.dot.selected {
+  background-color: lightcoral;
+  
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.arrow-left {
+  border-bottom: 25px solid transparent; 
+  border-right:25px solid #bbb; 
+  border-top: 25px solid transparent;
+  display: inline-block;
+  height: 0; 
+  margin: 0 10px;
+  width: 0;
+}
+
+.arrow-right {
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #bbb;
+  border-top: 25px solid transparent;
+  display: inline-block;
+  height: 0; 
+  margin: 0 10px;
+  width: 0; 
+}
